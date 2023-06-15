@@ -9,14 +9,19 @@ body {
 
 .first-area {
   background-color: #1F2937;
-  padding: 10px 300px;
+  padding: 20px 300px;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .header {
   color: #F9FAF8;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 ul {
@@ -24,28 +29,37 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
+  align-items: flex-end;
   gap: 16px;
 }
 
 a {
   text-decoration: none;
   color: #F9FAF8;
+  font-size: 18px;
 }
 
 .first-subarea {
   display: flex;
   justify-content: space-between;
   color: #F9FAF8;
+  margin-bottom: 100px;
 }
 
 .first-subarea-content {
   display: flex;
   flex-direction: column;
+  width: 400px;
 }
 
 .first-title {
   font-size: 48px;
   font-weight: 700;
+}
+
+.first-subtext {
+  margin-top: 8px;
+  font-size: 18px;
 }
 
 .first-button {
@@ -63,5 +77,38 @@ button {
   display: flex;
   align-items: center;
   background: gray;
-  padding: 80px;
+  padding: 100px;
+}
+
+.second-area {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.second-title {
+  font-weight: bold;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.more-box-text {
+  display: flex;
+  gap: 50px;
+}
+
+.mini-box {
+  border: 5px solid #3882F6;
+  padding: 90px 80px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.mini-box-text {
+  width: 200px;
+}
+
+.subtext-mini-box {
+  text-align: center;
 }
