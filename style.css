@@ -9,7 +9,7 @@ body {
 
 .first-area {
   background-color: #1F2937;
-  padding: 20px 300px;
+  padding: 20px 400px;
 }
 
 .header-logo {
@@ -77,20 +77,21 @@ button {
   display: flex;
   align-items: center;
   background: gray;
-  padding: 100px;
+  padding: 100px 150px;
 }
 
 .second-area {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 50px;
+  padding: 50px 0 100px 0;
 }
 
 .second-title {
   font-weight: bold;
   font-size: 36px;
   color: #1F2937;
+  margin-bottom: 50px;
 }
 
 .more-box-text {
@@ -101,7 +102,7 @@ button {
 .mini-box {
   border: 5px solid #3882F6;
   padding: 90px 80px;
-  border-radius: 8px;
+  border-radius: 16px;
   margin-bottom: 10px;
 }
 
@@ -111,4 +112,26 @@ button {
 
 .subtext-mini-box {
   text-align: center;
+}
+
+.third-area {
+  background: #e5e7eb;
+  padding: 100px;
+  font-style: italic;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-and-author {
+  display: flex;
+  flex-direction: column;
+  max-width: 950px;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
 }
