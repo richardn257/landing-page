@@ -35,7 +35,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #F9FAF8;
+  color: #e5e7eb;
   font-size: 18px;
 }
 
@@ -60,6 +60,7 @@ a {
 .first-subtext {
   margin-top: 8px;
   font-size: 18px;
+  color: #e5e7eb;
 }
 
 .first-button {
@@ -134,4 +135,16 @@ button {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
+}
+
+
+
+.footer {
+  color: #e5e7eb;
+  background: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 18px;
 }
