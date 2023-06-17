@@ -5,34 +5,26 @@ body {
   min-height: 100vh;
   min-width: 100vh;
   font-family: 'Roboto';
-  /* display: flex; */
-  /* overflow-x: hidden; */
 }
 
 .first-area {
   background-color: #1F2937;
-  /* padding: 20px 0; */
-  /* padding-bottom: 20px; */
-  padding-bottom: 125px;
+  padding-bottom: 95px;
   padding-top: 12px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 32px;
+  margin: 0 auto 100px auto;
+  max-width: 65rem;
+  color: #F9FAF8;
 }
 
 .header-logo {
   font-weight: 700;
   font-size: 24px;
-  flex-shrink: 0;
-}
-
-.header {
-  color: #F9FAF8;
-  display: flex;
-  justify-content: space-between;
-  /* padding: 0 400px; */
-  padding: 8px 32px;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 65rem;
 }
 
 ul {
@@ -54,17 +46,16 @@ a {
   display: flex;
   justify-content: space-between;
   color: #F9FAF8;
-  /* margin-bottom: 100px; */
-  /* padding: 0 400px; */
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   max-width: 65rem;
+  flex-wrap: wrap;
 }
 
 .first-subarea-content {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 425px;
+  padding-bottom: 30px;
 }
 
 .first-title {
@@ -95,9 +86,9 @@ button {
   align-items: center;
   background: gray;
   padding: 100px 150px;
-  /* width: auto; */
-  /* height: 100%; */
-  /* max-height: 50vh; */
+  width: auto;
+  height: 100%;
+  max-height: 50vh;
 }
 
 .second-area {
@@ -116,6 +107,7 @@ button {
 
 .more-box-text {
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -178,6 +170,7 @@ button {
 
 .rectangle-box .button {
   align-self: flex-end;
+  flex-shrink: 0;
 }
 
 .rectangle-box button {
