@@ -52,8 +52,6 @@ a {
 }
 
 .first-subarea-content {
-  display: flex;
-  flex-direction: column;
   width: 425px;
   padding-bottom: 30px;
 }
@@ -82,8 +80,6 @@ button {
 }
 
 .image {
-  display: flex;
-  align-items: center;
   background: gray;
   padding: 100px 150px;
   width: auto;
@@ -151,7 +147,6 @@ button {
 .fourth-area {
   display: flex;
   justify-content: center;
-  /* padding: 100px 400px; */
   padding: 100px 0;
 }
 
